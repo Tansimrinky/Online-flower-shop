@@ -1,0 +1,51 @@
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Permanent Marker", cursive;
+  font-family: "Poppins", sans-serif;
+}
+.btn-primary {
+  background-color: #e55473;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700px;
+  padding: 20px 40px;
+}
+
+/* banner related styles */
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  background-color:  rgba(229, 84, 115, 0.10);
+  max-width: 1920px;
+  max-height: 850px;
+}
+
+.banner-info {
+  padding-left: 240px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.banner-pic{
+    position: bottom;
+}
