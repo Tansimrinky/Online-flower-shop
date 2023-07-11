@@ -149,3 +149,21 @@ p > a {
   line-height: 30px;
 }
 /* hot deal section end */
+
+/* instagrame section starts */
+.instagram-container {
+  margin: 100px;
+  text-align: center;
+}
+
+.instagram-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
