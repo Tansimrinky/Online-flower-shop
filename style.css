@@ -89,10 +89,31 @@ p {
 }
 
 .flower-name {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
-p> a{
-    color: black;
+p > a {
+  color: black;
+}
+
+/* services styles starts */
+.sevice-container {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 128px 240px;
+  padding: 85px 300px 85px 300px;
+}
+
+.services{
+  text-align: center;
+}
+
+.services> p{
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 24px;
+  font-weight: 400;
+  font-size: small;
 }
