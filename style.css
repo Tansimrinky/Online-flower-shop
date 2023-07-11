@@ -89,7 +89,6 @@ p {
 }
 
 .flower-name {
-  color: black;
   text-align: center;
 }
 
@@ -107,13 +106,46 @@ p > a {
   padding: 85px 300px 85px 300px;
 }
 
-.services{
+.services {
   text-align: center;
 }
 
-.services> p{
-  color: rgba(39, 39, 39, 0.80);
+.services > p {
+  color: rgba(39, 39, 39, 0.8);
   font-size: 24px;
   font-weight: 400;
   font-size: small;
 }
+/* service styles end */
+/* bonus section starts */
+/* bonus section end */
+/* hot deal section starts */
+
+.Hot-Deal-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-info {
+  text-align: center;
+}
+
+.hot-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.speicial-character {
+  color: #e55473;
+}
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* hot deal section end */
